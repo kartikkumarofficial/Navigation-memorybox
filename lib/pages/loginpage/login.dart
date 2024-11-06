@@ -31,21 +31,25 @@ class loginpage extends StatelessWidget {
         ),
         child: SingleChildScrollView(
           child: Padding(
-            padding: const EdgeInsets.only(top: 10),
+            padding: const EdgeInsets.only(top: 40),
             child: Column(
               children: [
-                Image.asset(
-                  'assets/images/login.png',
-                  height: srcwidth * 0.78,
-                  width: srcwidth * 0.9,
-          
+                Container(
+                  height: srcwidth*0.75,
+                  // color: Colors.blue,
+                  child: Image.asset(
+                    'assets/images/login2.png',
+                    height: srcwidth * 0.78,
+                    width: srcwidth * 0.9,
+
+                  ),
                 ),
                 SingleChildScrollView(
                   child: Card(
                     elevation: 10,
                     child: Container(
                       height: srcheight * 0.545,
-                      width: srcwidth * 0.85,
+                      width: srcwidth * 0.83,
                       decoration: BoxDecoration(
           
                         gradient: LinearGradient(
@@ -90,6 +94,10 @@ class loginpage extends StatelessWidget {
                             width: srcwidth * 0.64,
                             height: srcheight * 0.055,
                             child:
+
+
+
+
                             TextField(
                             controller: nameController,
 
@@ -103,6 +111,8 @@ class loginpage extends StatelessWidget {
 
                                 ),
                                 filled: true,
+                                isDense: true,
+                                contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
                                 fillColor: Color.fromARGB(255, 205, 184, 251),
                                 // labelText: 'Password',
                                 hintText: 'Email',
@@ -137,6 +147,8 @@ class loginpage extends StatelessWidget {
                                   fillColor: Color.fromARGB(255, 205, 184, 251),
                                   // labelText: 'Password',
                                   hintText: 'Password',
+                                  isDense: true,
+                                  contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
                                   border: OutlineInputBorder(
                                     borderRadius: BorderRadius.circular(15),
                                     borderSide: BorderSide.none,
@@ -191,10 +203,10 @@ class loginpage extends StatelessWidget {
                                 height: srcheight * 0.055,
                                 child: InkWell(
                                     onTap: (){
-                                      Navigator.push(
-                                        context,
-                                        MaterialPageRoute(builder: (context) => intropage()),
-                                      );
+                                      // Navigator.push(
+                                      //   context,
+                                      //   MaterialPageRoute(builder: (context) => intropage()),
+                                      // );
                                     },
                                     child: Text('Forgot Password?',
                                       style: TextStyle(
@@ -302,12 +314,6 @@ class loginpage extends StatelessWidget {
                               ),
                             ),
                           )
-          
-          
-          
-          
-          
-          
                         ],
                       ),
                     ),

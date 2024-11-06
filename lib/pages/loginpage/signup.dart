@@ -91,6 +91,8 @@ class signuppage extends StatelessWidget {
                                 filled: true,
                                 fillColor: Color.fromARGB(255, 205, 184, 251),
                                 hintText: 'Name',
+                                isDense: true,
+                                contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
                                 border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(15),
                                   borderSide: BorderSide.none,
@@ -115,6 +117,8 @@ class signuppage extends StatelessWidget {
                                 filled: true,
                                 fillColor: Color.fromARGB(255, 205, 184, 251),
                                 hintText: 'Email',
+                                isDense: true,
+                                contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
                                 border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(15),
                                   borderSide: BorderSide.none,
@@ -140,6 +144,8 @@ class signuppage extends StatelessWidget {
                                 filled: true,
                                 fillColor: Color.fromARGB(255, 205, 184, 251),
                                 hintText: 'Password',
+                                isDense: true,
+                                contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
                                 border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(15),
                                   borderSide: BorderSide.none,
@@ -160,6 +166,8 @@ class signuppage extends StatelessWidget {
                                 filled: true,
                                 fillColor: Color.fromARGB(255, 205, 184, 251),
                                 hintText: 'Confirm Password',
+                                isDense: true,
+                                contentPadding: EdgeInsets.symmetric(vertical: 10, horizontal: 15),
                                 border: OutlineInputBorder(
                                   borderRadius: BorderRadius.circular(15),
                                   borderSide: BorderSide.none,
