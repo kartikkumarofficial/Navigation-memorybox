@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:memorybox2/pages/chatbot.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'chatbot.dart';
 
 class intropage extends StatelessWidget {
   const intropage({super.key});
@@ -33,7 +32,7 @@ class intropage extends StatelessWidget {
                   child: Image.asset(
                     'assets/images/nurse.png',
                     height: srcwidth * 0.7,
-                    width: srcwidth * 0.7,
+                    width: srcwidth * 0.7, 
                   ),
                 ),
                 // Container(

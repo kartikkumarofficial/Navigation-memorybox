@@ -101,7 +101,7 @@ class memorytrainingpage extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(top: 20),
+                  padding: const EdgeInsets.only(top: 32),
                   child: SizedBox(
                     width: srcwidth * 0.3,
                     height: srcheight * 0.04,
